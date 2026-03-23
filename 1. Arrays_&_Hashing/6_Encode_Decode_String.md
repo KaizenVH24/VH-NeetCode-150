@@ -1,0 +1,144 @@
+### Encode and Decode String
+
+leetcode 271 ( premium )
+
+271. Encode and Decode Strings 
+
+```
+Design an algorithm to encode a list of strings to a string. The encoded string
+is then sent over the network and is decoded back to the original list of strings.
+
+Machine 1 (sender) has the function:
+
+string encode(vector<string> strs) {
+    // ... your code
+    return encoded_string;
+}
+Machine 2 (receiver) has the function:
+
+vector<string> decode(string s) {
+    //... your code
+    return strs;
+}
+So Machine 1 does:
+
+string encoded_string = encode(strs);
+and Machine 2 does:
+
+vector<string> strs2 = decode(encoded_string);
+strs2 in Machine 2 should be the same as strs in Machine 1.
+
+Implement the encode and decode methods.
+
+Example 1:
+
+Input: dummy_input = ["Hello","World"]
+
+Output: ["Hello","World"]
+
+Explanation:
+Machine 1:
+Codec encoder = new Codec();
+String msg = encoder.encode(strs);
+Machine 1 ---msg---> Machine 2
+
+Machine 2:
+Codec decoder = new Codec();
+String[] strs = decoder.decode(msg);
+Example 2:
+
+Input: dummy_input = [""]
+
+Output: [""]
+
+Constraints:
+
+0 <= strs.length < 100
+0 <= strs[i].length < 200
+strs[i] contains any possible characters out of 256 valid ASCII characters.
+
+Follow up: Could you write a generalized algorithm to work on any possible set of characters?
+```
+
+## Solution
+
+```python
+def encode(strs):
+    result = ""
+
+    for s in strs:
+        result += str(len(s)) + "#" + s
+
+    return result
+
+
+# Example usage
+n = int(input("Enter number of strings: "))
+strs = [input() for _ in range(n)]
+
+encoded = encode(strs)
+print("Encoded string:", encoded)
+
+
+def decode(s):
+    result = []
+    i = 0
+
+    while i < len(s):
+        j = i
+
+        # find '#'
+        while s[j] != '#':
+            j += 1
+
+        length = int(s[i:j])
+        i = j + 1
+
+        word = s[i:i + length]
+        result.append(word)
+
+        i += length
+
+    return result
+
+
+# Example usage
+decoded = decode(encoded)
+print("Decoded list:", decoded)
+```
+
+```python
+class Codec:
+
+    def encode(self, strs):
+        res = ""
+        for s in strs:
+            res += str(len(s)) + "#" + s
+        return res
+
+    def decode(self, s):
+        res = []
+        i = 0
+
+        while i < len(s):
+            j = i
+            while s[j] != '#':
+                j += 1
+
+            length = int(s[i:j])
+            i = j + 1
+
+            res.append(s[i:i + length])
+            i += length
+
+        return res
+```
+
+Encode:
+Time: O(n) (total characters)
+Space: O(n)
+
+
+Decode:
+Time: O(n)
+Space: O(n)
