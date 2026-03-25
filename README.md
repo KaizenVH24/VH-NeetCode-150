@@ -17,7 +17,9 @@
 
 | Type | No. Of Ques | Leetcode List |
 |---|---|---|
-| 1. [Arrays And Hashing](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/1.%20Arrays_%26_Hashing) | 9 Questions | https://leetcode.com/problem-list/wqhi32s1/ |
-| 2. [Two Pointers](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/2.%20Two_Pointers) | 5 Questions | https://leetcode.com/problem-list/wq9noq2t/ |
+| 1. [Arrays And Hashing](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/1.%20Arrays_%26_Hashing) | 9 | https://leetcode.com/problem-list/wqhi32s1/ |
+| 2. [Two Pointers](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/2.%20Two_Pointers) | 5 | https://leetcode.com/problem-list/wq9noq2t/ |
+| 3. [Sliding Window](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/3.%20Sliding_Window) | 6  | https://leetcode.com/problem-list/wq9nks7h/ |
+
 
 --- 
