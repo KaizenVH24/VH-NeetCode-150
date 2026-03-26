@@ -24,3 +24,5 @@
 | 5. [Binary Search](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/5.%20Binary_Search) | 7 | https://leetcode.com/problem-list/wqs4pyq1/ |
 
 --- 
+
+![Progress](https://img.shields.io/badge/Progress-17.33%25-brightgreen)
