@@ -59,3 +59,20 @@ def isValid(s):
 Time Complexity: O(n)
 
 Space Complexity: O(n)
+
+---
+
+
+## Other solution
+
+```python
+class Solution:
+    def isValid(self, s: str) -> bool:
+        
+        while "()" in s or "{}" in s or "[]" in s:
+            s = s.replace("()", "")
+            s = s.replace("{}", "")
+            s = s.replace("[]", "")
+        
+        return s == ""
+```
