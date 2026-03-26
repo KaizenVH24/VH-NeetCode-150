@@ -21,6 +21,6 @@
 | 2. [Two Pointers](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/2.%20Two_Pointers) | 5 | https://leetcode.com/problem-list/wq9noq2t/ |
 | 3. [Sliding Window](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/3.%20Sliding_Window) | 6  | https://leetcode.com/problem-list/wq9nks7h/ |
 | 4. [Stack](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/4.%20Stack) | 6 | https://leetcode.com/problem-list/wqssdtc2/ |
-
+| 5. [Binary Search](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/5.%20Binary_Search) | 7 | https://leetcode.com/problem-list/wqs4pyq1/ |
 
 --- 
