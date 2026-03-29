@@ -1,5 +1,7 @@
 # VH-NeetCode-150
 
+<div align="center">
+
 ---
 
 [![Mail](https://img.shields.io/badge/Mail-vinayhulsurkar%40gmail.com-red?style=flat&logo=gmail)](mailto:vinayhulsurkar@gmail.com)
@@ -22,7 +24,15 @@
 | 3. [Sliding Window](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/3.%20Sliding_Window) | 6  | https://leetcode.com/problem-list/wq9nks7h/ |
 | 4. [Stack](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/4.%20Stack) | 6 | https://leetcode.com/problem-list/wqssdtc2/ |
 | 5. [Binary Search](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/5.%20Binary_Search) | 7 | https://leetcode.com/problem-list/wqs4pyq1/ |
+| 6. [Linked List](https://github.com/KaizenVH24/VH-NeetCode-150/tree/main/6.%20Linked_List) | 11 | https://leetcode.com/problem-list/wqf75mvs/ |
 
 --- 
+| Total Questions| Questions Completed | Progress |
+|---|---|---|
+| 150 | 44 | 29.33% |
 
-![Progress](https://img.shields.io/badge/Progress-22.00%25-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-29.33%25-brightgreen)
+
+</div>
+
+
