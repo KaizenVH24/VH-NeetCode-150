@@ -4,6 +4,7 @@ Leetcode 704 - https://leetcode.com/problems/binary-search/?envType=problem-list
 
 ---
 
+
 ## Solution
 
 user input
