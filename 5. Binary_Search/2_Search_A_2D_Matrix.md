@@ -69,7 +69,6 @@ class Solution:
         return False
 ```
 
-
 Time: O(log(m × n)) 
 
 Binary search on total elements
